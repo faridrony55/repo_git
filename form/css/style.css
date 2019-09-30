@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+img{
+ 
+max-width: 100%;
+}
+
+header{
+    
+background: #0091FF;
+}
+.container{
+ 
+width: 1000px;
+ 
+margin: auto;
+ 
+overflow: hidden;
+}
+ 
+nav{
+    
+text-align: center;
+}
+nav ul{
+    
+}
+nav ul li{
+    
+display: inline-block;
+    
+vertical-align: middle;
+}
+nav ul li a{
+
+color: #fff;
+
+text-transform: uppercase;
+
+text-decoration: none;
+
+padding: 10px;
+
+display: block;
+}
+
+
+nav ul li a img{
+  
+width: 150px;
+}
+.form-section{
+ 
+display: flex;
+ 
+flex-wrap: wrap;
+}
+.left{
+    background: #268fde;
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding: 100px;
+}
+.right{
+    background: #006dbf;
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding: 100px;
+    color: #fff;
+}
+h1{
+    font-size: 25px;
+}
+p{
+    max-width: 400px;
+    font-size: 18px;
+}
+b{
+    font-weight: 900;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+}
+strong{
+    text-transform: uppercase;
+    margin-top: 26px;
+    display: block;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+form{
+}
+form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+form label{
+    font-size: 18px;
+    text-transform: capitalize;
+}
+form select{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #000;
+    font-size: 18px;
+    border-radius: 30px;
+}
+form textarea{
+
+width: 100%;
+
+margin-bottom: 10px;
+
+padding: 10px 15px;
+
+background-color: transparent;
+
+border: 1px solid white;
+
+color: #fff;
+
+font-size: 18px;
+
+border-radius: 30px;
+}
+ 
+ input[type="radio"],
+ input[type="checkbox"]{
+ 	width: auto;
+ }
+ input[type="submit"]{
+ 	
+width: auto;
+ 	
+background: #268fde;
+ 	
+text-transform: uppercase;
+ 	
+border-radius: 0;
+ 	
+border-radius: 30px;
+transition-duration: 0.5s;
+ }
+ 
+ ::placeholder{
+ 	color: #ffffffa1;
+ }
+ input:focus {
+ 	outline: none;  
+     }
+
+ .flex{
+
+display: flex;
+
+}
+ .flex .item{max-width: 50%;flex: 0 0 50%;padding: 5px;}
